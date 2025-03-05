@@ -1,0 +1,8 @@
+===
+Name: Denver Omelet
+Instructions: Cook it bruh
+Ingredients: eggs, butter, ham, pepper, onion
+===
+Name: Chicken Salad
+Instructions: Cook it bruh
+Ingredients: lettuce, chicken, tomato, lemon, onion
