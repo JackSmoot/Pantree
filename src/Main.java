@@ -2,7 +2,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -16,6 +15,10 @@ public class Main {
 //        for (Recipe recipe : recipes) {
 //            System.out.println(recipe);
 //        }
+        System.out.println("######################################");
+        System.out.println(recipes.get(0));
+        System.out.println("######################################");
+
     }
 
     public static ArrayList<Recipe> loadRecipes() {
