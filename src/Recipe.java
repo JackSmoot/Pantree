@@ -6,12 +6,14 @@ public class Recipe {
     private ArrayList<Ingredient> ingredients;
 
     private int calories;
+    private int servings;
 
     public Recipe(String name, String instructions, ArrayList<Ingredient> ingredients) {
         this.name = name;
         this.instructions = instructions;
         this.ingredients = ingredients;
         calories = totalCalories();
+        servings = 1;//user input
     }
 
     private int totalCalories() {
@@ -36,7 +38,7 @@ public class Recipe {
     }
 
     public int getCalories() {
-        return calories;
+        return calories * servings;
     }
 
     public String toString() {
